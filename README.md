@@ -1,5 +1,5 @@
 # Twic
-converts a number (int, decimal, float, double) to its representation in words, currently supports english and spanish.
+extension to convert a number to words (decimal, int, float, double), currently supports english and spanish.
 
 # Example
 ```
