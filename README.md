@@ -16,3 +16,8 @@ var forceEnglish = aNumber.Twic(Language.English);
 var forceSpanish = aNumber.Twic(Language.Spanish);
 
 ```
+
+#NuGet
+```
+Install-Package Twic
+```
