@@ -3,7 +3,7 @@ extension to convert a number to words (decimal, int, float, double), currently 
 
 # Example
 ```
-//supports int, double, decimal
+//supports int, double, decimal, and float
 decimal aNumber = 2137912;
 
 //next line will detect language according to CultureInfo.CurrentCulture
