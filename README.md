@@ -15,6 +15,9 @@ string forceEnglish = aNumber.Twic(Language.English); // 'two 99/100'
 //force spanish
 string forceSpanish = aNumber.Twic(Language.Spanish);  // 'dos 99/100'
 
+//Use int to remove cents
+string integerString = 2.Twic(Language.English) //returns 'two'
+
 ```
 
 #NuGet
