@@ -4,16 +4,16 @@ extension to convert a number to words (decimal, int, float, double), currently 
 # Example
 ```
 //supports int, double, decimal, and float
-decimal aNumber = 2137912;
+decimal aNumber = 2.99;
 
 //next line will detect language according to CultureInfo.CurrentCulture
-var auto = aNumber.Twic();
+string auto = aNumber.Twic(); //returns 'two' or 'dos' depending on CultureInfo
 
  //force English
-var forceEnglish = aNumber.Twic(Language.English);
+string forceEnglish = aNumber.Twic(Language.English); // 'two 99/100'
 
 //force spanish
-var forceSpanish = aNumber.Twic(Language.Spanish);
+string forceSpanish = aNumber.Twic(Language.Spanish);  // 'dos 99/100'
 
 ```
 
