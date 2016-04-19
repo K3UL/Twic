@@ -12,7 +12,7 @@ namespace Twic
         /// <summary>
         /// Sets language according to CurrentCultureInfo
         /// </summary>
-        Auto, English, Spanish
+        Auto, English, Spanish, French
     }
 
     public static partial class Extensions
@@ -21,7 +21,8 @@ namespace Twic
         private static readonly List<TwicBase> Languages = new List<TwicBase>
         {
             new English(),
-            new Spanish()
+            new Spanish(),
+            new French()
         };
 
         /// <summary>

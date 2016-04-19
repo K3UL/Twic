@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Twic", "Twic\Twic.csproj", "{EF022E43-742E-4343-94CE-C707967BB413}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Twic.ConsoleApp", "Twic.ConsoleApp\Twic.ConsoleApp.csproj", "{1E0338BE-D152-45BF-9C50-C2D51CB97871}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{EF022E43-742E-4343-94CE-C707967BB413}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF022E43-742E-4343-94CE-C707967BB413}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF022E43-742E-4343-94CE-C707967BB413}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E0338BE-D152-45BF-9C50-C2D51CB97871}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E0338BE-D152-45BF-9C50-C2D51CB97871}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E0338BE-D152-45BF-9C50-C2D51CB97871}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E0338BE-D152-45BF-9C50-C2D51CB97871}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

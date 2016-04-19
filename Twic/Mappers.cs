@@ -24,5 +24,13 @@
         public static readonly string[] TensMap ={ "zero", "ten", "twenty", "thirty", "forty", "fifty", "sixty", 
                                                       "seventy", "eighty", "ninety" };
         #endregion
+
+        #region French
+        public static readonly string[] UnitesMap = { "zéro", "un", "deux", "trois", "quatre", "cinq", "six", "sept",
+                                                        "huit", "neuf", "dix", "onze", "douze", "treize",
+                                                        "quatorze", "quinze", "seize", "dix-sept", "dix-huit", "dix-neuf" };
+        public static readonly string[] DizainesMap ={ "zéro", "dix", "vingt", "trente", "quarante", "cinquante", "soixante",
+                                                      "soixante-dix", "quatre-vingt", "quatre-vingt-dix" };
+        #endregion
     }
 }
